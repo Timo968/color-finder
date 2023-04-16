@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container main-container">
+        <h1>Color Finder</h1>
+        <!-- Existing content -->
+        <div class="language-selection">
+            <label for="languageSelect">Select Language:</label>
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+        <div class="input-container">
+            <input type="text" id="projectInput" placeholder="Enter your project name">
+            <span id="autocompleteText" class="autocomplete-text"></span>
+        </div>
+        <button>Submit</button>
+        <div id="colorsContainer"></div>
+    </div>
+    
+    <!-- New section with Twitter link -->
+    <div class="container twitter-container">
+        <h2>Follow me on Twitter</h2>
+        <a href="https://twitter.com/timotheuswiese" target="_blank" class="twitter-link">@timotheuswiese</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
