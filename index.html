@@ -7,29 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
     <div class="container main-container">
         <h1>Color Finder</h1>
-        <!-- Existing content -->
-        <div class="language-selection">
-            <label for="languageSelect">Select Language:</label>
-            <select id="languageSelect">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="fr">Français</option>
-            </select>
-        </div>
+        <p class="slogan">Find the perfect colors for your new project.</p>
         <div class="input-container">
             <input type="text" id="projectInput" placeholder="Enter your project name">
-            <span id="autocompleteText" class="autocomplete-text"></span>
         </div>
         <button>Submit</button>
         <div id="colorsContainer"></div>
-    </div>
-    
-    <!-- New section with Twitter link -->
-    <div class="container twitter-container">
-        <h2>Follow me on Twitter</h2>
-        <a href="https://twitter.com/timotheuswiese" target="_blank" class="twitter-link">@timotheuswiese</a>
     </div>
     <script src="script.js"></script>
 </body>
