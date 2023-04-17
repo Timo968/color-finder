@@ -47,7 +47,7 @@ body {
     position: absolute;
     border-radius: 50%;
     opacity: 0.2;
-    animation: move 10s infinite alternate;
+    animation: move 5s infinite alternate;
 }
 
 .shape-1 {
@@ -93,6 +93,13 @@ body {
 .main-container {
     margin-bottom: 2rem;
     min-height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        min-height: auto;
+        padding-bottom: 2rem;
+    }
 }
 
 h1 {
