@@ -32,6 +32,7 @@ body {
     gap: 2rem;
     position: relative;
     overflow: hidden;
+    padding: 5rem; /* Increased spacing between the border and the inner box */
 }
 
 .background-shapes {
